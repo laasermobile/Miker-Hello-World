@@ -15,7 +15,7 @@ jobs:
         token: ${{ github.token }}
     - name: "Update: master"
       id: sync-master
-      uses: masterbassist/Fork-Sync-With-Upstream-action@fork-sync
+      uses: masterbassist/Fork-Sync-With-Upstream-action@v3
       with:
         domain: 'github.com'
         upstream_repository: masterbassist/hello-world
